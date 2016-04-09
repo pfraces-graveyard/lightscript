@@ -34,9 +34,11 @@ var api = {
 
 ### References
 
-  * Ramda
-  * Elm
-  * Haskell
+  * [Ramda](http://ramdajs.com/)
+  * [TypeScript](https://www.typescriptlang.org/)
+  * [JSON Schema](http://json-schema.org/)
+  * [Elm](http://elm-lang.org/)
+  * [Haskell](https://www.haskell.org/)
 
 Spec
 ----

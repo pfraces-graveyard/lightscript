@@ -1,10 +1,42 @@
-LightScript
+lightscript
 ===========
 
-Functional programming language compatible with JavaScript
+Functional JavaScript-compatible programming language
 
   * Subset of ES3
-  * Import external JavaScript modules
+  * Import external JavaScript 
+  * Type annotations
+
+Type annotations
+----------------
+
+To keep ES3 compatibility, type annotations can be expressed as comments
+
+```js
+//@: a -> a
+var identity = function (value) {
+  return value;
+};
+```
+
+
+Type annotations will be applied to the next function expression found
+
+Inline annotations are also valid
+
+```js
+var api = {
+  identity: /*@: a -> a */ function (value) {
+    return value;
+  }
+};
+```
+
+### References
+
+  * Ramda
+  * Elm
+  * Haskell
 
 Spec
 ----
